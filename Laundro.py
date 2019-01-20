@@ -42,6 +42,8 @@ def available(): #boolean
             out['hello'+str(j)] = {'minsleft':'god knows', 'available':machine_status[j],'intensity':ave_val[j]}
 
         out_json = json.dumps(out)
+        with open('data.json', w) as outfile:
+            json.dump(out_json, outfile)
         print(out_json) #will be pushed
     else:
         print('static')

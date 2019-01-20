@@ -1,13 +1,11 @@
 const admin = require('firebase-admin');
 
-//to change
-/*
-var serviceAccount = require('C:/Users/shunf/OneDrive/Desktop/my-awesome-project-9a50a-firebase-adminsdk-l7ym1-53abc2353b.json');
+var serviceAccount = require('~/hnr/my-awesome-project-9a50a-firebase-adminsdk-l7ym1-53abc2353b.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
 });
-*/
+
 
 var db = admin.firestore();
 

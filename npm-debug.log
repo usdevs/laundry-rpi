@@ -1,0 +1,808 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'instal',
+1 verbose cli   'firebase-admin',
+1 verbose cli   '--global' ]
+2 info using npm@1.4.21
+3 info using node@v8.11.1
+4 verbose cache add [ 'firebase-admin', null ]
+5 verbose cache add name=undefined spec="firebase-admin" args=["firebase-admin",null]
+6 verbose parsed url Url {
+6 verbose parsed url   protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'firebase-admin',
+6 verbose parsed url   path: 'firebase-admin',
+6 verbose parsed url   href: 'firebase-admin' }
+7 silly lockFile ce3de937-firebase-admin firebase-admin
+8 verbose lock firebase-admin /root/.npm/ce3de937-firebase-admin.lock
+9 silly lockFile ce3de937-firebase-admin firebase-admin
+10 silly lockFile ce3de937-firebase-admin firebase-admin
+11 verbose addNamed [ 'firebase-admin', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 226f78e7-firebase-admin firebase-admin@
+14 verbose lock firebase-admin@ /root/.npm/226f78e7-firebase-admin.lock
+15 silly addNameRange { name: 'firebase-admin', range: '*', hasData: false }
+16 verbose request where is /firebase-admin
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 01e28ae3130e1c05
+19 verbose url raw /firebase-admin
+20 verbose url resolving [ 'https://registry.npmjs.org/', './firebase-admin' ]
+21 verbose url resolved https://registry.npmjs.org/firebase-admin
+22 verbose request where is https://registry.npmjs.org/firebase-admin
+23 info trying registry request attempt 1 at 1:26:46 PM
+24 verbose etag W/"ca24b8972178330acca342e60fc830fa"
+25 http GET https://registry.npmjs.org/firebase-admin
+26 http 304 https://registry.npmjs.org/firebase-admin
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Sun, 20 Jan 2019 05:26:46 GMT',
+27 silly registry.get     connection: 'close',
+27 silly registry.get     'set-cookie':
+27 silly registry.get      [ '__cfduid=d93e4b1ffe1be51811f9ef95720f44cb71547962006; expires=Mon, 20-Jan-20 05:26:46 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+27 silly registry.get     'cf-cache-status': 'HIT',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     'cf-ray': '49bf20cc3ab7704a-SIN',
+27 silly registry.get     etag: '"ca24b8972178330acca342e60fc830fa"',
+27 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+27 silly registry.get     'last-modified': 'Wed, 09 Jan 2019 21:44:37 GMT',
+27 silly registry.get     vary: 'accept-encoding, accept',
+27 silly registry.get     'x-amz-meta-rev': '105-3959eac65e068a2ec80dc003b920ee47',
+27 silly registry.get     server: 'cloudflare' } ]
+28 verbose etag https://registry.npmjs.org/firebase-admin from cache
+29 silly addNameRange number 2 { name: 'firebase-admin', range: '*', hasData: true }
+30 silly addNameRange versions [ 'firebase-admin',
+30 silly addNameRange   [ '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.4',
+30 silly addNameRange     '1.0.5',
+30 silly addNameRange     '1.0.6',
+30 silly addNameRange     '1.0.7',
+30 silly addNameRange     '1.0.8',
+30 silly addNameRange     '1.0.9',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.2.0',
+30 silly addNameRange     '2.0.0',
+30 silly addNameRange     '2.0.1',
+30 silly addNameRange     '2.1.0',
+30 silly addNameRange     '2.1.1',
+30 silly addNameRange     '2.2.0',
+30 silly addNameRange     '3.0.0',
+30 silly addNameRange     '4.0.0',
+30 silly addNameRange     '4.0.1',
+30 silly addNameRange     '4.0.2',
+30 silly addNameRange     '4.0.3',
+30 silly addNameRange     '4.0.4',
+30 silly addNameRange     '4.0.5',
+30 silly addNameRange     '4.0.6',
+30 silly addNameRange     '4.1.0',
+30 silly addNameRange     '4.1.1',
+30 silly addNameRange     '4.1.2',
+30 silly addNameRange     '4.1.3',
+30 silly addNameRange     '4.1.4',
+30 silly addNameRange     '4.2.0',
+30 silly addNameRange     '4.2.1',
+30 silly addNameRange     '5.0.0',
+30 silly addNameRange     '5.0.1',
+30 silly addNameRange     '5.1.0',
+30 silly addNameRange     '5.2.0',
+30 silly addNameRange     '5.2.1',
+30 silly addNameRange     '5.3.0',
+30 silly addNameRange     '5.4.0',
+30 silly addNameRange     '5.4.1',
+30 silly addNameRange     '5.4.2',
+30 silly addNameRange     '5.4.3',
+30 silly addNameRange     '5.5.0',
+30 silly addNameRange     '5.5.1',
+30 silly addNameRange     '5.6.0',
+30 silly addNameRange     '5.7.0',
+30 silly addNameRange     '5.8.0',
+30 silly addNameRange     '5.8.1',
+30 silly addNameRange     '5.8.2',
+30 silly addNameRange     '5.9.0',
+30 silly addNameRange     '5.9.1',
+30 silly addNameRange     '5.10.0',
+30 silly addNameRange     '5.11.0',
+30 silly addNameRange     '5.12.0',
+30 silly addNameRange     '5.12.1',
+30 silly addNameRange     '5.13.0',
+30 silly addNameRange     '5.13.1',
+30 silly addNameRange     '6.0.0',
+30 silly addNameRange     '6.1.0',
+30 silly addNameRange     '6.2.0',
+30 silly addNameRange     '6.3.0',
+30 silly addNameRange     '6.4.0',
+30 silly addNameRange     '6.5.0' ] ]
+31 verbose addNamed [ 'firebase-admin', '6.5.0' ]
+32 verbose addNamed [ '6.5.0', '6.5.0' ]
+33 silly lockFile 0b52be89-firebase-admin-6-5-0 firebase-admin@6.5.0
+34 verbose lock firebase-admin@6.5.0 /root/.npm/0b52be89-firebase-admin-6-5-0.lock
+35 silly lockFile 0b52be89-firebase-admin-6-5-0 firebase-admin@6.5.0
+36 silly lockFile 0b52be89-firebase-admin-6-5-0 firebase-admin@6.5.0
+37 silly lockFile 226f78e7-firebase-admin firebase-admin@
+38 silly lockFile 226f78e7-firebase-admin firebase-admin@
+39 silly resolved [ { name: 'firebase-admin',
+39 silly resolved     version: '6.5.0',
+39 silly resolved     description: 'Firebase admin SDK for Node.js',
+39 silly resolved     author:
+39 silly resolved      { name: 'Firebase',
+39 silly resolved        email: 'firebase-support@google.com',
+39 silly resolved        url: 'https://firebase.google.com/' },
+39 silly resolved     license: 'Apache-2.0',
+39 silly resolved     homepage: 'https://firebase.google.com/',
+39 silly resolved     engines: { node: '>=6.0.0' },
+39 silly resolved     scripts:
+39 silly resolved      { build: 'gulp build',
+39 silly resolved        lint: 'run-p lint:src lint:unit lint:integration',
+39 silly resolved        test: 'run-s lint test:unit',
+39 silly resolved        integration: 'run-s build test:integration',
+39 silly resolved        'test:unit': 'mocha test/unit/*.spec.ts --require ts-node/register',
+39 silly resolved        'test:integration': 'mocha test/integration/*.ts --slow 5000 --timeout 20000 --require ts-node/register',
+39 silly resolved        'test:coverage': 'nyc npm run test:unit',
+39 silly resolved        'lint:src': 'tslint --format stylish -p tsconfig.json',
+39 silly resolved        'lint:unit': 'tslint -c tslint-test.json --format stylish test/unit/*.ts test/unit/**/*.ts',
+39 silly resolved        'lint:integration': 'tslint -c tslint-test.json --format stylish test/integration/*.ts' },
+39 silly resolved     nyc:
+39 silly resolved      { extension: [Array],
+39 silly resolved        include: [Array],
+39 silly resolved        exclude: [Array],
+39 silly resolved        all: true },
+39 silly resolved     keywords: [ 'admin', 'database', 'Firebase', 'realtime', 'authentication' ],
+39 silly resolved     repository:
+39 silly resolved      { type: 'git',
+39 silly resolved        url: 'git+https://github.com/firebase/firebase-admin-node.git' },
+39 silly resolved     main: 'lib/index.js',
+39 silly resolved     types: './lib/index.d.ts',
+39 silly resolved     dependencies:
+39 silly resolved      { '@firebase/app': '^0.3.4',
+39 silly resolved        '@firebase/database': '^0.3.6',
+39 silly resolved        '@types/node': '^8.0.53',
+39 silly resolved        jsonwebtoken: '8.1.0',
+39 silly resolved        'node-forge': '0.7.4',
+39 silly resolved        '@google-cloud/firestore': '^0.19.0',
+39 silly resolved        '@google-cloud/storage': '^1.6.0',
+39 silly resolved        '@types/google-cloud__storage': '^1.7.1' },
+39 silly resolved     optionalDependencies:
+39 silly resolved      { '@google-cloud/firestore': '^0.19.0',
+39 silly resolved        '@google-cloud/storage': '^1.6.0',
+39 silly resolved        '@types/google-cloud__storage': '^1.7.1' },
+39 silly resolved     devDependencies:
+39 silly resolved      { '@types/bcrypt': '^2.0.0',
+39 silly resolved        '@types/chai': '^3.4.34',
+39 silly resolved        '@types/chai-as-promised': '0.0.29',
+39 silly resolved        '@types/firebase-token-generator': '^2.0.28',
+39 silly resolved        '@types/jsonwebtoken': '^7.2.8',
+39 silly resolved        '@types/lodash': '^4.14.104',
+39 silly resolved        '@types/minimist': '^1.2.0',
+39 silly resolved        '@types/mocha': '^2.2.48',
+39 silly resolved        '@types/nock': '^9.1.0',
+39 silly resolved        '@types/request': '^2.47.0',
+39 silly resolved        '@types/request-promise': '^4.1.41',
+39 silly resolved        '@types/scrypt': '^6.0.0',
+39 silly resolved        '@types/sinon': '^4.1.3',
+39 silly resolved        '@types/sinon-chai': '^2.7.27',
+39 silly resolved        bcrypt: '^3.0.0',
+39 silly resolved        chai: '^3.5.0',
+39 silly resolved        'chai-as-promised': '^6.0.0',
+39 silly resolved        chalk: '^1.1.3',
+39 silly resolved        del: '^2.2.1',
+39 silly resolved        '@firebase/auth': '0.5.2',
+39 silly resolved        'firebase-token-generator': '^2.0.0',
+39 silly resolved        gulp: '^3.9.1',
+39 silly resolved        'gulp-exit': '0.0.2',
+39 silly resolved        'gulp-header': '^1.8.8',
+39 silly resolved        'gulp-replace': '^0.5.4',
+39 silly resolved        'gulp-typescript': '^3.2.4',
+39 silly resolved        lodash: '^4.17.5',
+39 silly resolved        merge2: '^1.2.1',
+39 silly resolved        minimist: '^1.2.0',
+39 silly resolved        mocha: '^5.2.0',
+39 silly resolved        nock: '^9.6.0',
+39 silly resolved        'npm-run-all': '^4.1.5',
+39 silly resolved        nyc: '^11.5.0',
+39 silly resolved        request: '^2.75.0',
+39 silly resolved        'request-promise': '^4.1.1',
+39 silly resolved        'run-sequence': '^1.1.5',
+39 silly resolved        scrypt: '^6.0.3',
+39 silly resolved        sinon: '^4.4.5',
+39 silly resolved        'sinon-chai': '^2.8.0',
+39 silly resolved        'ts-node': '^3.3.0',
+39 silly resolved        tslint: '^5.9.0',
+39 silly resolved        typescript: '^2.7.2' },
+39 silly resolved     bugs:
+39 silly resolved      { url: 'https://github.com/firebase/firebase-admin-node/issues' },
+39 silly resolved     _id: 'firebase-admin@6.5.0',
+39 silly resolved     _shasum: '61954e57f595850af184c6eafad9612c2aa196bc',
+39 silly resolved     _resolved: 'https://registry.npmjs.org/firebase-admin/-/firebase-admin-6.5.0.tgz',
+39 silly resolved     _from: 'firebase-admin@',
+39 silly resolved     _npmVersion: '3.10.8',
+39 silly resolved     _nodeVersion: '6.9.1',
+39 silly resolved     _npmUser:
+39 silly resolved      { name: 'firebase-ops',
+39 silly resolved        email: 'operations+plainlogo@firebase.com' },
+39 silly resolved     dist:
+39 silly resolved      { shasum: '61954e57f595850af184c6eafad9612c2aa196bc',
+39 silly resolved        tarball: 'https://registry.npmjs.org/firebase-admin/-/firebase-admin-6.5.0.tgz',
+39 silly resolved        integrity: 'sha512-0ejmbmx8VCjVCZVxpvVckDqFOULEL455eNtyJOGag4QmCE8n89J5X9GhR027mdHis5mpIiGJtnqpe6jO3E6QZA==',
+39 silly resolved        fileCount: 34,
+39 silly resolved        unpackedSize: 405228,
+39 silly resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcNmtBCRA9TVsSAnZWagAA5JUP/RGNLNREiq4wmMY4i8p0\nObp2+OUwwZj1IRbn1Tx7Mx7rCf//Vj2O4MU6NnKNgui5XhtbEDV/Y8arqgk3\ni5NSqpMTHZRBVyB4cCOwxjaqt1h14O7n8tB7uMpzMCDKuL55mLIn3RF5HZ8g\nJQRtcAd+BqkVSdfL77n0mhTTaXNQOfpLevtzRMO0qvxPkGhV0ZYtfhx9sTkm\n/jB/J9Vlrvpca/JwjopbVHb1eIO+kw5CKWDBokoPcbN/fqktOYmDXf5MTzOM\nASXjcnf8LCfChFJnKzcXXfHij13ksF5jtgiYfVuVqEkDrUlWH/wT7UGZrzjp\nqNI3T9V75Ovvdw7zpoeenB9FumS5haXxGQ2Wwdtt7GfFdEe/eeZblgoS4rgG\ndoUl3YZwwWqIRXHel+E1mhrPff7ahtFb2A/HPAcZQskUM/uQMCf4IaGskkf9\nHNVttStonlo7Pf4NCOGl1GLXyyL9UgFVHbB9cUv44nwgL1+s6E9M2z2jy8sJ\njQsZqPohVgdoFI01kX9pkfJnRVkwQYrH0HzS2lR68gJ8tdA5ORRZatcv+ozm\nPD70wmLkIc8tAyjpYw9esptf33ZmXUksJmYiPW+5cMvfpmt1FO3K+b/HtLPo\nA0Fw27hYOq9FH+M78dt38W2Df2ZVg0nKFZCZ5JfU+mQfdvk1hxpJqnBXz7Wy\nyXI8\r\n=CrTj\r\n-----END PGP SIGNATURE-----\r\n' },
+39 silly resolved     maintainers: [ [Object] ],
+39 silly resolved     directories: {},
+39 silly resolved     _npmOperationalInternal:
+39 silly resolved      { host: 's3://npm-registry-packages',
+39 silly resolved        tmp: 'tmp/firebase-admin_6.5.0_1547070272792_0.41027397972675606' },
+39 silly resolved     _hasShrinkwrap: false,
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install firebase-admin@6.5.0 into /usr/local/lib
+41 info installOne firebase-admin@6.5.0
+42 verbose lib/node_modules/firebase-admin unbuild
+43 verbose tar unpack /root/.npm/firebase-admin/6.5.0/package.tgz
+44 silly lockFile ee49e925--lib-node-modules-firebase-admin tar:///usr/local/lib/node_modules/firebase-admin
+45 verbose lock tar:///usr/local/lib/node_modules/firebase-admin /root/.npm/ee49e925--lib-node-modules-firebase-admin.lock
+46 silly lockFile 136bee3b-firebase-admin-6-5-0-package-tgz tar:///root/.npm/firebase-admin/6.5.0/package.tgz
+47 verbose lock tar:///root/.npm/firebase-admin/6.5.0/package.tgz /root/.npm/136bee3b-firebase-admin-6-5-0-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm extractEntry CHANGELOG.md
+51 silly gunzTarPerm extractEntry LICENSE
+52 silly gunzTarPerm modified mode [ 'LICENSE', 416, 420 ]
+53 silly gunzTarPerm extractEntry README.md
+54 silly gunzTarPerm extractEntry lib/auth/action-code-settings-builder.js
+55 silly gunzTarPerm extractEntry lib/auth/auth-api-request.js
+56 silly gunzTarPerm extractEntry lib/auth/auth.js
+57 silly gunzTarPerm extractEntry lib/auth/credential.js
+58 silly gunzTarPerm extractEntry lib/auth/token-generator.js
+59 silly gunzTarPerm extractEntry lib/auth/token-verifier.js
+60 silly gunzTarPerm extractEntry lib/auth/user-import-builder.js
+61 silly gunzTarPerm extractEntry lib/auth/user-record.js
+62 silly gunzTarPerm extractEntry lib/database/database.js
+63 silly gunzTarPerm extractEntry lib/default-namespace.js
+64 silly gunzTarPerm extractEntry lib/firebase-app.js
+65 silly gunzTarPerm extractEntry lib/firebase-namespace.js
+66 silly gunzTarPerm extractEntry lib/firebase-service.js
+67 silly gunzTarPerm extractEntry lib/firestore/firestore.js
+68 silly gunzTarPerm extractEntry lib/index.d.ts
+69 silly gunzTarPerm extractEntry lib/index.js
+70 silly gunzTarPerm extractEntry lib/instance-id/instance-id-request.js
+71 silly gunzTarPerm extractEntry lib/instance-id/instance-id.js
+72 silly gunzTarPerm extractEntry lib/messaging/messaging-api-request.js
+73 silly gunzTarPerm extractEntry lib/messaging/messaging.js
+74 silly gunzTarPerm extractEntry lib/project-management/android-app.js
+75 silly gunzTarPerm extractEntry lib/project-management/ios-app.js
+76 silly gunzTarPerm extractEntry lib/project-management/project-management-api-request.js
+77 silly gunzTarPerm extractEntry lib/project-management/project-management.js
+78 silly gunzTarPerm extractEntry lib/storage/storage.js
+79 silly gunzTarPerm extractEntry lib/utils/api-request.js
+80 silly gunzTarPerm extractEntry lib/utils/deep-copy.js
+81 silly gunzTarPerm extractEntry lib/utils/error.js
+82 silly gunzTarPerm extractEntry lib/utils/index.js
+83 silly gunzTarPerm extractEntry lib/utils/validator.js
+84 silly lockFile ee49e925--lib-node-modules-firebase-admin tar:///usr/local/lib/node_modules/firebase-admin
+85 silly lockFile ee49e925--lib-node-modules-firebase-admin tar:///usr/local/lib/node_modules/firebase-admin
+86 silly lockFile 136bee3b-firebase-admin-6-5-0-package-tgz tar:///root/.npm/firebase-admin/6.5.0/package.tgz
+87 silly lockFile 136bee3b-firebase-admin-6-5-0-package-tgz tar:///root/.npm/firebase-admin/6.5.0/package.tgz
+88 info preinstall firebase-admin@6.5.0
+89 verbose readDependencies using package.json deps
+90 verbose readDependencies using package.json deps
+91 verbose cache add [ 'jsonwebtoken@8.1.0', null ]
+92 verbose cache add name=undefined spec="jsonwebtoken@8.1.0" args=["jsonwebtoken@8.1.0",null]
+93 verbose parsed url Url {
+93 verbose parsed url   protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: 'jsonwebtoken@8.1.0',
+93 verbose parsed url   path: 'jsonwebtoken@8.1.0',
+93 verbose parsed url   href: 'jsonwebtoken@8.1.0' }
+94 verbose cache add [ 'node-forge@0.7.4', null ]
+95 verbose cache add name=undefined spec="node-forge@0.7.4" args=["node-forge@0.7.4",null]
+96 verbose parsed url Url {
+96 verbose parsed url   protocol: null,
+96 verbose parsed url   slashes: null,
+96 verbose parsed url   auth: null,
+96 verbose parsed url   host: null,
+96 verbose parsed url   port: null,
+96 verbose parsed url   hostname: null,
+96 verbose parsed url   hash: null,
+96 verbose parsed url   search: null,
+96 verbose parsed url   query: null,
+96 verbose parsed url   pathname: 'node-forge@0.7.4',
+96 verbose parsed url   path: 'node-forge@0.7.4',
+96 verbose parsed url   href: 'node-forge@0.7.4' }
+97 verbose cache add [ '@google-cloud/firestore@^0.19.0', null ]
+98 verbose cache add name=undefined spec="@google-cloud/firestore@^0.19.0" args=["@google-cloud/firestore@^0.19.0",null]
+99 verbose parsed url Url {
+99 verbose parsed url   protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: '@google-cloud/firestore@%5E0.19.0',
+99 verbose parsed url   path: '@google-cloud/firestore@%5E0.19.0',
+99 verbose parsed url   href: '@google-cloud/firestore@%5E0.19.0' }
+100 verbose cache add [ '@google-cloud/storage@^1.6.0', null ]
+101 verbose cache add name=undefined spec="@google-cloud/storage@^1.6.0" args=["@google-cloud/storage@^1.6.0",null]
+102 verbose parsed url Url {
+102 verbose parsed url   protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: '@google-cloud/storage@%5E1.6.0',
+102 verbose parsed url   path: '@google-cloud/storage@%5E1.6.0',
+102 verbose parsed url   href: '@google-cloud/storage@%5E1.6.0' }
+103 verbose cache add [ '@types/google-cloud__storage@^1.7.1', null ]
+104 verbose cache add name=undefined spec="@types/google-cloud__storage@^1.7.1" args=["@types/google-cloud__storage@^1.7.1",null]
+105 verbose parsed url Url {
+105 verbose parsed url   protocol: null,
+105 verbose parsed url   slashes: null,
+105 verbose parsed url   auth: null,
+105 verbose parsed url   host: null,
+105 verbose parsed url   port: null,
+105 verbose parsed url   hostname: null,
+105 verbose parsed url   hash: null,
+105 verbose parsed url   search: null,
+105 verbose parsed url   query: null,
+105 verbose parsed url   pathname: '@types/google-cloud__storage@%5E1.7.1',
+105 verbose parsed url   path: '@types/google-cloud__storage@%5E1.7.1',
+105 verbose parsed url   href: '@types/google-cloud__storage@%5E1.7.1' }
+106 verbose cache add name="jsonwebtoken" spec="8.1.0" args=["jsonwebtoken","8.1.0"]
+107 verbose parsed url Url {
+107 verbose parsed url   protocol: null,
+107 verbose parsed url   slashes: null,
+107 verbose parsed url   auth: null,
+107 verbose parsed url   host: null,
+107 verbose parsed url   port: null,
+107 verbose parsed url   hostname: null,
+107 verbose parsed url   hash: null,
+107 verbose parsed url   search: null,
+107 verbose parsed url   query: null,
+107 verbose parsed url   pathname: '8.1.0',
+107 verbose parsed url   path: '8.1.0',
+107 verbose parsed url   href: '8.1.0' }
+108 verbose addNamed [ 'jsonwebtoken', '8.1.0' ]
+109 verbose addNamed [ '8.1.0', '8.1.0' ]
+110 silly lockFile dddd53e5-jsonwebtoken-8-1-0 jsonwebtoken@8.1.0
+111 verbose lock jsonwebtoken@8.1.0 /root/.npm/dddd53e5-jsonwebtoken-8-1-0.lock
+112 verbose cache add name="node-forge" spec="0.7.4" args=["node-forge","0.7.4"]
+113 verbose parsed url Url {
+113 verbose parsed url   protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: '0.7.4',
+113 verbose parsed url   path: '0.7.4',
+113 verbose parsed url   href: '0.7.4' }
+114 verbose addNamed [ 'node-forge', '0.7.4' ]
+115 verbose addNamed [ '0.7.4', '0.7.4' ]
+116 silly lockFile 0daaa527-node-forge-0-7-4 node-forge@0.7.4
+117 verbose lock node-forge@0.7.4 /root/.npm/0daaa527-node-forge-0-7-4.lock
+118 verbose cache add name="" spec="google-cloud/firestore@^0.19.0" args=["","google-cloud/firestore@^0.19.0"]
+119 verbose parsed url Url {
+119 verbose parsed url   protocol: null,
+119 verbose parsed url   slashes: null,
+119 verbose parsed url   auth: null,
+119 verbose parsed url   host: null,
+119 verbose parsed url   port: null,
+119 verbose parsed url   hostname: null,
+119 verbose parsed url   hash: null,
+119 verbose parsed url   search: null,
+119 verbose parsed url   query: null,
+119 verbose parsed url   pathname: 'google-cloud/firestore@%5E0.19.0',
+119 verbose parsed url   path: 'google-cloud/firestore@%5E0.19.0',
+119 verbose parsed url   href: 'google-cloud/firestore@%5E0.19.0' }
+120 verbose cache add name="" spec="google-cloud/storage@^1.6.0" args=["","google-cloud/storage@^1.6.0"]
+121 verbose parsed url Url {
+121 verbose parsed url   protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: 'google-cloud/storage@%5E1.6.0',
+121 verbose parsed url   path: 'google-cloud/storage@%5E1.6.0',
+121 verbose parsed url   href: 'google-cloud/storage@%5E1.6.0' }
+122 verbose cache add name="" spec="types/google-cloud__storage@^1.7.1" args=["","types/google-cloud__storage@^1.7.1"]
+123 verbose parsed url Url {
+123 verbose parsed url   protocol: null,
+123 verbose parsed url   slashes: null,
+123 verbose parsed url   auth: null,
+123 verbose parsed url   host: null,
+123 verbose parsed url   port: null,
+123 verbose parsed url   hostname: null,
+123 verbose parsed url   hash: null,
+123 verbose parsed url   search: null,
+123 verbose parsed url   query: null,
+123 verbose parsed url   pathname: 'types/google-cloud__storage@%5E1.7.1',
+123 verbose parsed url   path: 'types/google-cloud__storage@%5E1.7.1',
+123 verbose parsed url   href: 'types/google-cloud__storage@%5E1.7.1' }
+124 verbose cache add [ '@firebase/app@^0.3.4', null ]
+125 verbose cache add name=undefined spec="@firebase/app@^0.3.4" args=["@firebase/app@^0.3.4",null]
+126 verbose parsed url Url {
+126 verbose parsed url   protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: '@firebase/app@%5E0.3.4',
+126 verbose parsed url   path: '@firebase/app@%5E0.3.4',
+126 verbose parsed url   href: '@firebase/app@%5E0.3.4' }
+127 verbose cache add [ '@firebase/database@^0.3.6', null ]
+128 verbose cache add name=undefined spec="@firebase/database@^0.3.6" args=["@firebase/database@^0.3.6",null]
+129 verbose parsed url Url {
+129 verbose parsed url   protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: '@firebase/database@%5E0.3.6',
+129 verbose parsed url   path: '@firebase/database@%5E0.3.6',
+129 verbose parsed url   href: '@firebase/database@%5E0.3.6' }
+130 verbose cache add [ '@types/node@^8.0.53', null ]
+131 verbose cache add name=undefined spec="@types/node@^8.0.53" args=["@types/node@^8.0.53",null]
+132 verbose parsed url Url {
+132 verbose parsed url   protocol: null,
+132 verbose parsed url   slashes: null,
+132 verbose parsed url   auth: null,
+132 verbose parsed url   host: null,
+132 verbose parsed url   port: null,
+132 verbose parsed url   hostname: null,
+132 verbose parsed url   hash: null,
+132 verbose parsed url   search: null,
+132 verbose parsed url   query: null,
+132 verbose parsed url   pathname: '@types/node@%5E8.0.53',
+132 verbose parsed url   path: '@types/node@%5E8.0.53',
+132 verbose parsed url   href: '@types/node@%5E8.0.53' }
+133 verbose cache add name="google-cloud/firestore" spec="^0.19.0" args=["google-cloud/firestore","^0.19.0"]
+134 verbose parsed url Url {
+134 verbose parsed url   protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: '%5E0.19.0',
+134 verbose parsed url   path: '%5E0.19.0',
+134 verbose parsed url   href: '%5E0.19.0' }
+135 verbose addNamed [ 'google-cloud/firestore', '^0.19.0' ]
+136 verbose addNamed [ null, '>=0.19.0 <0.20.0' ]
+137 silly lockFile 56852232-google-cloud-firestore-0-19-0 google-cloud/firestore@^0.19.0
+138 verbose lock google-cloud/firestore@^0.19.0 /root/.npm/56852232-google-cloud-firestore-0-19-0.lock
+139 verbose cache add name="google-cloud/storage" spec="^1.6.0" args=["google-cloud/storage","^1.6.0"]
+140 verbose parsed url Url {
+140 verbose parsed url   protocol: null,
+140 verbose parsed url   slashes: null,
+140 verbose parsed url   auth: null,
+140 verbose parsed url   host: null,
+140 verbose parsed url   port: null,
+140 verbose parsed url   hostname: null,
+140 verbose parsed url   hash: null,
+140 verbose parsed url   search: null,
+140 verbose parsed url   query: null,
+140 verbose parsed url   pathname: '%5E1.6.0',
+140 verbose parsed url   path: '%5E1.6.0',
+140 verbose parsed url   href: '%5E1.6.0' }
+141 verbose addNamed [ 'google-cloud/storage', '^1.6.0' ]
+142 verbose addNamed [ null, '>=1.6.0 <2.0.0' ]
+143 silly lockFile 9a9399ce-google-cloud-storage-1-6-0 google-cloud/storage@^1.6.0
+144 verbose lock google-cloud/storage@^1.6.0 /root/.npm/9a9399ce-google-cloud-storage-1-6-0.lock
+145 verbose cache add name="types/google-cloud__storage" spec="^1.7.1" args=["types/google-cloud__storage","^1.7.1"]
+146 verbose parsed url Url {
+146 verbose parsed url   protocol: null,
+146 verbose parsed url   slashes: null,
+146 verbose parsed url   auth: null,
+146 verbose parsed url   host: null,
+146 verbose parsed url   port: null,
+146 verbose parsed url   hostname: null,
+146 verbose parsed url   hash: null,
+146 verbose parsed url   search: null,
+146 verbose parsed url   query: null,
+146 verbose parsed url   pathname: '%5E1.7.1',
+146 verbose parsed url   path: '%5E1.7.1',
+146 verbose parsed url   href: '%5E1.7.1' }
+147 verbose addNamed [ 'types/google-cloud__storage', '^1.7.1' ]
+148 verbose addNamed [ null, '>=1.7.1 <2.0.0' ]
+149 silly lockFile 6c0ec415-types-google-cloud-storage-1-7-1 types/google-cloud__storage@^1.7.1
+150 verbose lock types/google-cloud__storage@^1.7.1 /root/.npm/6c0ec415-types-google-cloud-storage-1-7-1.lock
+151 verbose cache add name="" spec="firebase/app@^0.3.4" args=["","firebase/app@^0.3.4"]
+152 verbose parsed url Url {
+152 verbose parsed url   protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: 'firebase/app@%5E0.3.4',
+152 verbose parsed url   path: 'firebase/app@%5E0.3.4',
+152 verbose parsed url   href: 'firebase/app@%5E0.3.4' }
+153 verbose cache add name="" spec="firebase/database@^0.3.6" args=["","firebase/database@^0.3.6"]
+154 verbose parsed url Url {
+154 verbose parsed url   protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: 'firebase/database@%5E0.3.6',
+154 verbose parsed url   path: 'firebase/database@%5E0.3.6',
+154 verbose parsed url   href: 'firebase/database@%5E0.3.6' }
+155 verbose cache add name="" spec="types/node@^8.0.53" args=["","types/node@^8.0.53"]
+156 verbose parsed url Url {
+156 verbose parsed url   protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: 'types/node@%5E8.0.53',
+156 verbose parsed url   path: 'types/node@%5E8.0.53',
+156 verbose parsed url   href: 'types/node@%5E8.0.53' }
+157 verbose cache add name="firebase/app" spec="^0.3.4" args=["firebase/app","^0.3.4"]
+158 verbose parsed url Url {
+158 verbose parsed url   protocol: null,
+158 verbose parsed url   slashes: null,
+158 verbose parsed url   auth: null,
+158 verbose parsed url   host: null,
+158 verbose parsed url   port: null,
+158 verbose parsed url   hostname: null,
+158 verbose parsed url   hash: null,
+158 verbose parsed url   search: null,
+158 verbose parsed url   query: null,
+158 verbose parsed url   pathname: '%5E0.3.4',
+158 verbose parsed url   path: '%5E0.3.4',
+158 verbose parsed url   href: '%5E0.3.4' }
+159 verbose addNamed [ 'firebase/app', '^0.3.4' ]
+160 verbose addNamed [ null, '>=0.3.4 <0.4.0' ]
+161 silly lockFile 802b234c-firebase-app-0-3-4 firebase/app@^0.3.4
+162 verbose lock firebase/app@^0.3.4 /root/.npm/802b234c-firebase-app-0-3-4.lock
+163 verbose cache add name="firebase/database" spec="^0.3.6" args=["firebase/database","^0.3.6"]
+164 verbose parsed url Url {
+164 verbose parsed url   protocol: null,
+164 verbose parsed url   slashes: null,
+164 verbose parsed url   auth: null,
+164 verbose parsed url   host: null,
+164 verbose parsed url   port: null,
+164 verbose parsed url   hostname: null,
+164 verbose parsed url   hash: null,
+164 verbose parsed url   search: null,
+164 verbose parsed url   query: null,
+164 verbose parsed url   pathname: '%5E0.3.6',
+164 verbose parsed url   path: '%5E0.3.6',
+164 verbose parsed url   href: '%5E0.3.6' }
+165 verbose addNamed [ 'firebase/database', '^0.3.6' ]
+166 verbose addNamed [ null, '>=0.3.6 <0.4.0' ]
+167 silly lockFile 0248c10a-firebase-database-0-3-6 firebase/database@^0.3.6
+168 verbose lock firebase/database@^0.3.6 /root/.npm/0248c10a-firebase-database-0-3-6.lock
+169 verbose cache add name="types/node" spec="^8.0.53" args=["types/node","^8.0.53"]
+170 verbose parsed url Url {
+170 verbose parsed url   protocol: null,
+170 verbose parsed url   slashes: null,
+170 verbose parsed url   auth: null,
+170 verbose parsed url   host: null,
+170 verbose parsed url   port: null,
+170 verbose parsed url   hostname: null,
+170 verbose parsed url   hash: null,
+170 verbose parsed url   search: null,
+170 verbose parsed url   query: null,
+170 verbose parsed url   pathname: '%5E8.0.53',
+170 verbose parsed url   path: '%5E8.0.53',
+170 verbose parsed url   href: '%5E8.0.53' }
+171 verbose addNamed [ 'types/node', '^8.0.53' ]
+172 verbose addNamed [ null, '>=8.0.53 <9.0.0' ]
+173 silly lockFile 97abdc1c-types-node-8-0-53 types/node@^8.0.53
+174 verbose lock types/node@^8.0.53 /root/.npm/97abdc1c-types-node-8-0-53.lock
+175 silly addNameRange { name: 'google-cloud/firestore',
+175 silly addNameRange   range: '>=0.19.0 <0.20.0',
+175 silly addNameRange   hasData: false }
+176 silly addNameRange { name: 'google-cloud/storage',
+176 silly addNameRange   range: '>=1.6.0 <2.0.0',
+176 silly addNameRange   hasData: false }
+177 silly addNameRange { name: 'types/google-cloud__storage',
+177 silly addNameRange   range: '>=1.7.1 <2.0.0',
+177 silly addNameRange   hasData: false }
+178 silly addNameRange { name: 'firebase/app', range: '>=0.3.4 <0.4.0', hasData: false }
+179 silly addNameRange { name: 'firebase/database',
+179 silly addNameRange   range: '>=0.3.6 <0.4.0',
+179 silly addNameRange   hasData: false }
+180 silly addNameRange { name: 'types/node', range: '>=8.0.53 <9.0.0', hasData: false }
+181 verbose request where is /jsonwebtoken
+182 verbose request registry https://registry.npmjs.org/
+183 verbose url raw /jsonwebtoken
+184 verbose url resolving [ 'https://registry.npmjs.org/', './jsonwebtoken' ]
+185 verbose url resolved https://registry.npmjs.org/jsonwebtoken
+186 verbose request where is https://registry.npmjs.org/jsonwebtoken
+187 info trying registry request attempt 1 at 1:26:47 PM
+188 verbose etag W/"3118f2e56889e465e5f52b8a3b6a0b1b"
+189 http GET https://registry.npmjs.org/jsonwebtoken
+190 verbose request where is /node-forge
+191 verbose request registry https://registry.npmjs.org/
+192 verbose url raw /node-forge
+193 verbose url resolving [ 'https://registry.npmjs.org/', './node-forge' ]
+194 verbose url resolved https://registry.npmjs.org/node-forge
+195 verbose request where is https://registry.npmjs.org/node-forge
+196 info trying registry request attempt 1 at 1:26:47 PM
+197 verbose etag W/"f68c8047e7826c59079c5d592d528f31"
+198 http GET https://registry.npmjs.org/node-forge
+199 verbose request where is /google-cloud/firestore
+200 verbose request registry https://registry.npmjs.org/
+201 verbose url raw /google-cloud/firestore
+202 verbose url resolving [ 'https://registry.npmjs.org/', './google-cloud/firestore' ]
+203 verbose url resolved https://registry.npmjs.org/google-cloud/firestore
+204 verbose request where is https://registry.npmjs.org/google-cloud/firestore
+205 info trying registry request attempt 1 at 1:26:47 PM
+206 http GET https://registry.npmjs.org/google-cloud/firestore
+207 verbose request where is /google-cloud/storage
+208 verbose request registry https://registry.npmjs.org/
+209 verbose url raw /google-cloud/storage
+210 verbose url resolving [ 'https://registry.npmjs.org/', './google-cloud/storage' ]
+211 verbose url resolved https://registry.npmjs.org/google-cloud/storage
+212 verbose request where is https://registry.npmjs.org/google-cloud/storage
+213 info trying registry request attempt 1 at 1:26:47 PM
+214 http GET https://registry.npmjs.org/google-cloud/storage
+215 verbose request where is /types/google-cloud__storage
+216 verbose request registry https://registry.npmjs.org/
+217 verbose url raw /types/google-cloud__storage
+218 verbose url resolving [ 'https://registry.npmjs.org/',
+218 verbose url resolving   './types/google-cloud__storage' ]
+219 verbose url resolved https://registry.npmjs.org/types/google-cloud__storage
+220 verbose request where is https://registry.npmjs.org/types/google-cloud__storage
+221 info trying registry request attempt 1 at 1:26:47 PM
+222 http GET https://registry.npmjs.org/types/google-cloud__storage
+223 verbose request where is /firebase/app
+224 verbose request registry https://registry.npmjs.org/
+225 verbose url raw /firebase/app
+226 verbose url resolving [ 'https://registry.npmjs.org/', './firebase/app' ]
+227 verbose url resolved https://registry.npmjs.org/firebase/app
+228 verbose request where is https://registry.npmjs.org/firebase/app
+229 info trying registry request attempt 1 at 1:26:47 PM
+230 http GET https://registry.npmjs.org/firebase/app
+231 verbose request where is /firebase/database
+232 verbose request registry https://registry.npmjs.org/
+233 verbose url raw /firebase/database
+234 verbose url resolving [ 'https://registry.npmjs.org/', './firebase/database' ]
+235 verbose url resolved https://registry.npmjs.org/firebase/database
+236 verbose request where is https://registry.npmjs.org/firebase/database
+237 info trying registry request attempt 1 at 1:26:47 PM
+238 http GET https://registry.npmjs.org/firebase/database
+239 verbose request where is /types/node
+240 verbose request registry https://registry.npmjs.org/
+241 verbose url raw /types/node
+242 verbose url resolving [ 'https://registry.npmjs.org/', './types/node' ]
+243 verbose url resolved https://registry.npmjs.org/types/node
+244 verbose request where is https://registry.npmjs.org/types/node
+245 info trying registry request attempt 1 at 1:26:47 PM
+246 http GET https://registry.npmjs.org/types/node
+247 http 304 https://registry.npmjs.org/node-forge
+248 silly registry.get cb [ 304,
+248 silly registry.get   { date: 'Sun, 20 Jan 2019 05:26:47 GMT',
+248 silly registry.get     connection: 'close',
+248 silly registry.get     'set-cookie':
+248 silly registry.get      [ '__cfduid=d5f55356ef8bdc7fdc7637c889f35165f1547962007; expires=Mon, 20-Jan-20 05:26:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+248 silly registry.get     'cf-cache-status': 'HIT',
+248 silly registry.get     'cache-control': 'max-age=300',
+248 silly registry.get     'cf-ray': '49bf20d0eb2dc374-SIN',
+248 silly registry.get     etag: '"f68c8047e7826c59079c5d592d528f31"',
+248 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+248 silly registry.get     'last-modified': 'Tue, 14 Aug 2018 21:19:49 GMT',
+248 silly registry.get     vary: 'accept-encoding, accept',
+248 silly registry.get     server: 'cloudflare' } ]
+249 verbose etag https://registry.npmjs.org/node-forge from cache
+250 http 304 https://registry.npmjs.org/jsonwebtoken
+251 silly registry.get cb [ 304,
+251 silly registry.get   { date: 'Sun, 20 Jan 2019 05:26:47 GMT',
+251 silly registry.get     connection: 'close',
+251 silly registry.get     'set-cookie':
+251 silly registry.get      [ '__cfduid=d39975ff3a0b1fa50307097a775df72841547962007; expires=Mon, 20-Jan-20 05:26:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+251 silly registry.get     'cf-cache-status': 'HIT',
+251 silly registry.get     'cache-control': 'max-age=300',
+251 silly registry.get     'cf-ray': '49bf20d0d922aa3e-SIN',
+251 silly registry.get     etag: '"3118f2e56889e465e5f52b8a3b6a0b1b"',
+251 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+251 silly registry.get     'last-modified': 'Mon, 14 Jan 2019 13:02:45 GMT',
+251 silly registry.get     vary: 'accept-encoding, accept',
+251 silly registry.get     'x-amz-meta-rev': '451-b413262f9bc848bee46e24e33cbea75c',
+251 silly registry.get     server: 'cloudflare' } ]
+252 verbose etag https://registry.npmjs.org/jsonwebtoken from cache
+253 silly lockFile 0daaa527-node-forge-0-7-4 node-forge@0.7.4
+254 silly lockFile 0daaa527-node-forge-0-7-4 node-forge@0.7.4
+255 silly lockFile dddd53e5-jsonwebtoken-8-1-0 jsonwebtoken@8.1.0
+256 silly lockFile dddd53e5-jsonwebtoken-8-1-0 jsonwebtoken@8.1.0
+257 http 405 https://registry.npmjs.org/types/google-cloud__storage
+258 silly registry.get cb [ 405,
+258 silly registry.get   { date: 'Sun, 20 Jan 2019 05:26:47 GMT',
+258 silly registry.get     'content-type': 'application/json',
+258 silly registry.get     'content-length': '63',
+258 silly registry.get     connection: 'close',
+258 silly registry.get     'set-cookie':
+258 silly registry.get      [ '__cfduid=d0f882c2628490b538cd041e4bb980eef1547962007; expires=Mon, 20-Jan-20 05:26:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+258 silly registry.get     'cf-ray': '49bf20d0eb0ec3b5-SIN',
+258 silly registry.get     allow: 'PUT',
+258 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+258 silly registry.get     vary: 'Accept-Encoding',
+258 silly registry.get     server: 'cloudflare' } ]
+259 http 405 https://registry.npmjs.org/google-cloud/firestore
+260 silly registry.get cb [ 405,
+260 silly registry.get   { date: 'Sun, 20 Jan 2019 05:26:47 GMT',
+260 silly registry.get     'content-type': 'application/json',
+260 silly registry.get     'content-length': '63',
+260 silly registry.get     connection: 'close',
+260 silly registry.get     'set-cookie':
+260 silly registry.get      [ '__cfduid=dc24bb39b9e4e0e181fe817215ee484541547962007; expires=Mon, 20-Jan-20 05:26:47 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+260 silly registry.get     'cf-ray': '49bf20d0ecaeaa50-SIN',
+260 silly registry.get     allow: 'PUT',
+260 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+260 silly registry.get     vary: 'Accept-Encoding',
+260 silly registry.get     server: 'cloudflare' } ]
+261 silly lockFile 6c0ec415-types-google-cloud-storage-1-7-1 types/google-cloud__storage@^1.7.1
+262 silly lockFile 6c0ec415-types-google-cloud-storage-1-7-1 types/google-cloud__storage@^1.7.1
+263 silly lockFile 56852232-google-cloud-firestore-0-19-0 google-cloud/firestore@^0.19.0
+264 silly lockFile 56852232-google-cloud-firestore-0-19-0 google-cloud/firestore@^0.19.0
+265 verbose about to build /usr/local/lib/node_modules/firebase-admin
+266 verbose lib/node_modules/firebase-admin unbuild
+267 info preuninstall firebase-admin@6.5.0
+268 info uninstall firebase-admin@6.5.0
+269 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild firebase-admin@6.5.0
+270 info postuninstall firebase-admin@6.5.0
+271 error Error: Method Not Allowed
+271 error     at errorResponse (/usr/share/npm/lib/cache/add-named.js:260:10)
+271 error     at /usr/share/npm/lib/cache/add-named.js:203:12
+271 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+271 error     at FSReqWrap.oncomplete (fs.js:135:15)
+272 error If you need help, you may report this *entire* log,
+272 error including the npm and node versions, at:
+272 error     <http://github.com/npm/npm/issues>
+273 error System Linux 4.14.79-v7+
+274 error command "/usr/bin/node" "/usr/bin/npm" "instal" "firebase-admin" "--global"
+275 error cwd /home/pi/hnr
+276 error node -v v8.11.1
+277 error npm -v 1.4.21
+278 error code E405
+279 verbose exit [ 1, true ]
